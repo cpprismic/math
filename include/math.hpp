@@ -1,9 +1,8 @@
-#pragma once 
+#pragma once
+
+#include <climits>
 
 namespace math {
-
-    constexpr int INT_MAX = 2147483647;
-    constexpr int INT_MIN = -2147483648;
 
     enum class StatusCode {
         SUCCESS = 0,
